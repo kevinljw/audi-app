@@ -1,0 +1,202 @@
+body {
+    background-color: #111;
+}
+
+@font-face {
+    font-family: Audi_normal;
+    src: url(../font/AudiTypeV01-ExtendedNormal.otf);
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 25px;
+    margin-left: 20px;
+}
+
+.menu_title {
+    float: right;
+    margin-right: 30px;
+}
+
+.tt {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 10pt;
+    font-family: Audi_normal;
+}
+
+.a3 {
+    margin-top: -4%;
+    width: 33.33%;
+    float: left;
+}
+
+.a4 {
+    margin-top: -4%;
+    width: 66.66%;
+    float: right;
+}
+
+.a5,
+.a6,
+.a7 {
+    width: 33.33%;
+    float: left;
+}
+
+.a8 {
+    width: 66.66%;
+    float: left;
+}
+
+.q3 {
+    width: 33.33%;
+    float: right;
+}
+
+.q5,
+.q7 {
+    width: 33.346%;
+    float: left;
+}
+
+.ttt {
+    width: 33.3%;
+    float: right;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    overflow: inherit;
+    margin-top: -2.6%;
+
+}
+
+.item {
+    margin-top: 4%;
+}
+
+.price_header {
+    margin-top: -4%;
+    width: 100%;
+}
+
+.sidebar-buttom {
+    text-align: center;
+}
+
+.ss {
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+.sidebar {
+    color: #fff;
+    font-size: 13pt;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 0.2em;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: inherit;
+    border-bottom: 1.5px solid white;
+    border-radius: 0;
+}
+
+.nav>li>a {
+    padding: 0px;
+}
+
+a {
+    background-color: inherit;
+    color: #fff;
+}
+
+.price_left,
+.price_ps {
+    width: 100%;
+    float: left;
+}
+
+p {
+    float: left;
+    width: 600px;
+    color: #fff;
+    font-size: 8pt;
+    line-height: 1.8em;
+}
+
+.spe_title {
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    /*position: fixed;*/
+}
+
+.spe_left {
+    padding-top: 50px;
+    background-color: #EFEFEF;
+    width: 130px;
+    height: 650px;
+    float: left;
+/*    margin-top: -4%;*/
+    z-index: 4;
+    /*position: fixed;*/
+}
+
+.spe_left_li a{
+    font-size: 18px;
+    /*line-height: 2.5em;*/
+    margin-left: 25%;
+    z-index: 4;
+    letter-spacing: 0.07em;
+    color: #111;
+    padding: 0;
+}
+
+.spe_left_li a:hover{
+    background-color: inherit;
+    border-bottom: 2px solid black;
+}
+
+
+.spe_left_li_air {
+    margin-top: 13px;
+    letter-spacing: 0em;
+    font-size: 16px;
+    z-index: 4;
+    line-height: 1.2em;
+}
+.spe_right_form{
+    padding-top: 50px;
+    width: calc(100% - 130px);
+    float: left;
+    background-color: #fff;
+    height: 650px;
+/*    margin-top: -4%;*/
+/*    margin-top: -79.6%;*/
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index: 3;
+}
+.spe_right_form img{
+    padding-top: 60px;
+}
+.spe_right1 {
+    width: 100%;
+    z-index: 1;
+}
+
+.spe_right {
+    width: 100%;
+    z-index: 1;
+}
