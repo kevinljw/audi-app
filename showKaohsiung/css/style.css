@@ -172,7 +172,7 @@ p {
     width: 100%;
     z-index: 5;
     position: absolute;
-    top: 0px;
+    top: -2px;
     /*position: fixed;*/
 }
 
@@ -211,7 +211,7 @@ p {
 }
 
 .spe_right_form {
-    padding-top: 50px;
+    padding-top: 20px;
     width: calc(100% - 140px);
     float: left;
     background-color: #fff;
