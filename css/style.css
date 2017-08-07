@@ -92,18 +92,16 @@ a:hover {
 }
 
 .title{
-
     margin-top:600px;
 }
 
 .title_qrcode{
-    margin-top:650px;
+    margin-top:30px;
     font-family: Audi_normal;
 }
-.title5{
-
+/*.title5{
     margin-top:350px;
-}
+}*/
 
 h1 {
     color: #fff;
@@ -172,9 +170,14 @@ h4 {
 
 .qrcode{
     position: absolute;
-    height: 180px;
     margin-top:10px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.qrcode img{
+
+    width: 188px;
+  
 }
 

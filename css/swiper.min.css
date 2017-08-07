@@ -27,6 +27,7 @@ body {
 .swiper-container {
     top: 10%;
     width: 120%;
+    height: 900px;
     
 }
 
@@ -102,18 +103,19 @@ body {
 .swiper-button-prev {
     background-image: url("../img/left.png");
     position: absolute;
-    
+    margin-top: -180px;
 }
 
 .swiper-button-next {
     background-image: url("../img/right.png");
     position: absolute;
     right:0px;
+    margin-top: -180px;
     
 }
 
 .swiper-slide img {
-    width: 80%;
+    width: 541px;
 }
 
 .swiper-button-next.swiper-button-disabled,
